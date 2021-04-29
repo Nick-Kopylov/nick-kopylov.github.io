@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 35, 35);
+}
+
+h1{
+    font-size: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: 400% 400%;
+    background: #1E9600;  
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: went;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes went{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
