@@ -1,0 +1,972 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(fonts.css);
+
+body {
+    width: 1440px;
+    margin: auto;
+}
+p {
+    margin: 10px;
+    font-family: monospace;
+    font-size: 14px;   
+}
+h2 {
+    font-family: Montserrat;
+    font-size: 26px;
+}
+h3 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    text-align: center; 
+}
+.header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/frends.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 100px;  
+}
+    .header__background{
+        width: initial;
+        position: absolute;   
+    } 
+        .header__top {
+        width: 70%;
+        height: 100px;
+        margin: auto;
+        }
+            .header__logo {
+                position: relative;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 25px;
+                color: aliceblue;
+                font-weight: bold;
+                text-shadow: 1px 1px 1px black;
+                margin-top: 20px;
+            }
+            .header__login {
+                float: right;
+                margin-top: -30px;
+            }
+                .header__login_button {
+                    width: 70px;
+                    height: 30px;
+                    font-size: 17px;
+                    background-image: none;
+                    background: transparent;
+                    background-color: transparent;
+                    color: white;
+                }
+        .header__title {
+            width: 470px;
+            height: 350px;
+            margin: 40px auto;
+            font-size: 25px;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            text-shadow: 1px 1px 1px black;
+            text-align: center;
+            line-height: 90px;
+        }
+            .header__title_button {
+                background-color: red;
+                color: white;
+                width: 220px;
+                height: 40px;
+                font-size: 17px;
+                border-radius: 10px;
+                margin-top: 50px;
+            }
+.main__cards {
+    width: 940px;
+    height: 461px;
+    margin: 100px auto;
+}
+    .main__cards_title {
+        width: 940px;
+        height: 30px;
+        text-align: center;
+    }
+    .main__cards_container {
+        width: 100%;
+        height: 400px;
+    }
+        .main__cards_container-block {
+            width: 30%;
+            height: 100%;
+            float: left;
+            margin-right: 1.5%;
+            margin-left: 1.5%;
+        }
+            .main__cards_container-block-one {
+                width: 300px;
+                height: 400px;
+                background-image: url(../img/order.png);
+                position: absolute;
+            }
+            .main__cards_container-block-two {
+                width: 300px;
+                height: 400px;
+                background-image: url(../img/driver.png);
+                position: absolute;
+            }
+            .main__cards_container-block-three {
+                width: 300px;
+                height: 400px;
+                background-image: url(../img/legs.png);
+                position: absolute;
+            }
+                .main__cards_container-text {
+                    height: 200px;
+                    position: absolute;
+                    bottom: 0;
+                    color: white;      
+                }
+                    .main__title_button {
+                    background-color: red;
+                    color: white;
+                    width: 150px;
+                    height: 40px;
+                    font-size: 17px;
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    }
+.section__persons {
+    width: 941px;
+    height: 361px;
+    margin: 100px auto;
+}
+    .section__persons_title {
+        width: 941px;
+        height: 30px;
+        text-align: center;
+    }
+        .section__persons_container {
+        width: 941px;
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+            .section__persons_container-block {
+            width: 21%;
+            height: 100%;
+            margin-right: 1.5%;
+            margin-left: 2%;
+            padding: 1%;
+            }
+                .section__persons_container-foto {
+                    width: 120px;
+                    height: 120px;
+                    margin: 0 auto;                    
+                }
+                    .section__persons_container-foto-one {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0px auto;
+                        border-radius: 60px;
+                        background-image: url(../img/bradly.png);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                        .section__persons_container-icon-one {
+                            width: 30px;
+                            height: 30px;
+                            background-image: url(../icons/music.png);
+                            background-position: center;
+                            background-size: flip;
+                            background-repeat: no-repeat;
+                            background-color: red;
+                            z-index: 100;
+                            border: 2px solid white;
+                            border-radius: 15px;
+                            float: right;
+                            margin-top: 90px;                          
+                        }
+                    .section__persons_container-foto-two {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0 auto;
+                        border-radius: 60px;
+                        background-image: url(../img/mari.png);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                        .section__persons_container-icon-two {
+                            width: 30px;
+                            height: 30px;
+                            background-image: url(../icons/brush.png);
+                            background-position: center;
+                            background-size: flip;
+                            background-repeat: no-repeat;
+                            background-color: seagreen;
+                            z-index: 100;
+                            border: 2px solid white;
+                            border-radius: 15px;
+                            float: right;
+                            margin-top: 90px;                          
+                        }
+                    .section__persons_container-foto-three {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0 auto;
+                        border-radius: 60px;
+                        background-image: url(../img/diana.png);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                        .section__persons_container-icon-three {
+                            width: 30px;
+                            height: 30px;
+                            background-image: url(../icons/camera.png);
+                            background-position: center;
+                            background-size: flip;
+                            background-repeat: no-repeat;
+                            background-color: orange;
+                            z-index: 100;
+                            border: 2px solid white;
+                            border-radius: 15px;
+                            float: right;
+                            margin-top: 90px;                          
+                        }
+                    .section__persons_container-foto-four {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0 auto;
+                        border-radius: 60px;
+                        background-image: url(../img/christofer.png);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                        .section__persons_container-icon-four {
+                            width: 30px;
+                            height: 30px;
+                            background-image: url(../icons/airplane.png);
+                            background-position: center;
+                            background-size: flip;
+                            background-repeat: no-repeat;
+                            background-color: blue;
+                            z-index: 100;
+                            border: 2px solid white;
+                            border-radius: 15px;
+                            float: right;
+                            margin-top: 90px;                          
+                        }
+                            .section__persons_container-name {
+                                width: 80%;
+                                height: 20px;
+                                margin: 10px auto;
+                                text-align: center;
+                                font-weight: bold;   
+                            }
+                            .section__persons_container-text {
+                                width: 180px;
+                                height: 40px;
+                                margin: 0 auto;
+                                text-align: center;
+                                font-family: Roboto;
+                                font-size: 14px;   
+                            }
+    .section__persons_button {
+        width: 180px;
+        height: 70px;
+        margin: 100px auto;
+        line-height: 70px;
+    }
+        .section__persons_button-one {
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            color: red;        
+            border-color: red;
+        }
+.article__interest {
+    width: 940px;
+    height: 1031px;
+    margin: 100px auto;
+}
+    .article__interest_title {
+        width: 941px;
+        height: 30px;
+        text-align: center;
+    }
+    .article__interest_wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+        .article__interest_block-small-one {
+            width: 300px;
+            height: 310px;
+            background-image: url(../img/run.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-text {
+            width: 100px;
+            height: 100px;
+            margin: 150px auto;
+        }
+        .article__interest_block-small-two {
+            width: 300px;
+            height: 310px;
+            background-image: url(../img/rest.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-small-three {
+            width: 300px;
+            height: 310px;
+            background-image: url(../img/rock.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-small-four {
+            width: 300px;
+            height: 310px;
+            background-image: url(../img/casino.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-big-five {
+            width: 620px;
+            height: 310px;
+            background-image: url(../img/museum.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-big-six {
+            width: 620px;
+            height: 310px;
+            background-image: url(../img/massage.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .article__interest_block-small-seven {
+            width: 300px;
+            height: 310px;
+            background-image: url(../img/hiking.png);
+            background-position: center;
+            background-size: cover;
+        }
+.section__search {
+    width: 482px;
+    height: 158px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+    .section__search_form {
+        width: 100%;
+        height: 60px;
+    }
+.footer__line {
+    width: 1000px;
+    height: 224px;
+    margin: 0 auto;
+    border-top: 3px solid red;   
+}
+    .footer__line_block {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+        .footer__logo {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            color: red;
+            font-weight: bold;
+            margin-top: 20px; 
+        }
+        .footer__line_block-company {
+            width: 100px;
+            height: 100%;
+        }
+        .footer__line_block-partners {
+            width: 100px;
+            height: 100%;
+        }
+        .footer__line_block-develop {
+            width: 150px;
+            height: 70px;
+            background-image: url(../img/logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+@media (max-width: 770px) {
+    .header__top {
+        width: 500px;
+        height: 100px;
+        margin: auto;
+        }
+        .main__cards {
+            width: 748px;
+            height: 461px;
+            margin: 100px auto;
+        }
+            .main__cards_title {
+                width: 748px;
+                height: 30px;
+                text-align: center;
+            }
+            .main__cards_container {
+                width: 100%;
+                height: 400px;
+            }
+                .main__cards_container-block {
+                    width: 30%;
+                    height: 100%;
+                    float: left;
+                    margin-right: 1.5%;
+                    margin-left: 1.5%;
+                }
+                    .main__cards_container-block-one {
+                        width: 236px;
+                        height: 400px;
+                        background-image: url(../img/order.png);
+                        position: absolute;
+                    }
+                    .main__cards_container-block-two {
+                        width: 236px;
+                        height: 400px;
+                        background-image: url(../img/driver.png);
+                        position: absolute;
+                    }
+                    .main__cards_container-block-three {
+                        width: 236px;
+                        height: 400px;
+                        background-image: url(../img/legs.png);
+                        position: absolute;
+                    }
+                        .main__cards_container-text {
+                            height: 200px;
+                            position: absolute;
+                            bottom: 0;
+                            color: white;
+                        }
+                            .main__title_button {
+                            background-color: red;
+                            color: white;
+                            width: 150px;
+                            height: 40px;
+                            font-size: 17px;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            }
+    .section__persons {
+        width: 472px;
+        height: 622px;
+        margin: 100px auto;
+    }
+        .section__persons_title {
+            width: 472px;
+            height: 70px;
+            text-align: center;
+        }
+            .section__persons_container {
+            width: 472px;
+            height: 441px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;      
+            }
+                .section__persons_container-block {
+                width: 42%;
+                height: 220px;
+                margin-right: 1.5%;
+                margin-left: 2%;
+                padding: 1%;
+                }
+                .article__interest {
+                    width: 748px;
+                    height: 1031px;
+                    margin: 100px auto;
+                }
+                    .article__interest_title {
+                        width: 748px;
+                        height: 30px;
+                        text-align: center;
+                    }
+                    .article__interest_wrapper {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                    }
+                        .article__interest_block-small-one {
+                            width: 236px;
+                            height: 310px;
+                            background-image: url(../img/run.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-text {
+                            width: 100px;
+                            height: 100px;
+                            margin: 150px auto;
+                        }
+                        .article__interest_block-small-two {
+                            width: 236px;
+                            height: 310px;
+                            background-image: url(../img/rest.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-small-three {
+                            width: 236px;
+                            height: 310px;
+                            background-image: url(../img/rock.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-small-four {
+                            width: 236px;
+                            height: 310px;
+                            background-image: url(../img/casino.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-big-five {
+                            width: 492px;
+                            height: 310px;
+                            background-image: url(../img/museum.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-big-six {
+                            width: 492px;
+                            height: 310px;
+                            background-image: url(../img/massage.png);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        .article__interest_block-small-seven {
+                            width: 236px;
+                            height: 310px;
+                            background-image: url(../img/hiking.png);
+                            background-position: center;
+                            background-size: cover;
+                        }  
+                        .footer__line {
+                            width: 768px;
+                            height: 224px;
+                            margin: 0 auto;
+                            border-top: 3px solid red;
+                            
+                        }
+                                .footer__logo {
+                                    position: relative;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    font-size: 25px;
+                                    color: red;
+                                    font-weight: bold;
+                                    text-shadow: 1px 1px 1px black;
+                                    margin-top: 20px;
+                                }
+}
+
+@media (max-width: 360px) {
+        
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-family: Montserrat;
+        font-size: 20px;
+    }
+
+    input {
+        margin: 10px;
+    }
+.header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/frends_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    background-size: flip;    
+    }
+    .header__top {
+        width: 300px;
+        height: 100px;
+        margin: auto;
+        }
+        .header__logo {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            color: aliceblue;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            margin-top: 20px;
+        }
+        .header__login {
+            float: right;
+            margin-top: -30px;
+        }
+            .header__login_button {
+                width: 70px;
+                height: 30px;
+                font-size: 17px;
+                background-image: none;
+                background: transparent;
+                background-color: transparent;
+                color: white;
+                text-shadow: 1px 1px 1px black;
+            }
+    .header__title {
+        width: 360px;
+        height: 350px;
+        margin: 40px auto;
+        font-size: 25px;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        line-height: 90px;
+    }
+        .header__title_button {
+            background-color: red;
+            color: white;
+            width: 220px;
+            height: 40px;
+            font-size: 17px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .main__cards {
+            width: 314px;
+            height: 1000px;
+            margin: 100px auto;
+        }
+            .main__cards_title {
+                width: 314px;
+                height: 30px;
+                text-align: center;
+            }
+            .main__cards_container {
+                width: 100%;
+                height: 320px;
+            }
+                .main__cards_container-block {
+                    width: 100%;
+                    height: 100%;
+                    margin-right: 1.5%;
+                    margin-left: 1.5%;
+                }
+                    .main__cards_container-block-one {
+                        width: 300px;
+                        height: 300px;
+                        background-image: url(../img/order.png);
+                        position: absolute;
+                    }
+                    .main__cards_container-block-two {
+                        width: 300px;
+                        height: 300px;
+                        background-image: url(../img/driver.png);
+                        position: absolute;
+                    }
+                    .main__cards_container-block-three {
+                        width: 300px;
+                        height: 300px;
+                        background-image: url(../img/legs.png);
+                        position: absolute;
+                    }
+                        .main__cards_container-text {
+                            height: 200px;
+                            position: absolute;
+                            bottom: 0;
+                            color: white;
+                        }
+                            .main__title_button {
+                            background-color: red;
+                            color: white;
+                            width: 150px;
+                            height: 40px;
+                            font-size: 17px;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            }
+        .section__persons {
+            width: 300px;
+            height: 1000px;
+            margin: 100px auto;
+        }
+            .section__persons_title {
+                width: 300px;
+                height: 60px;
+                text-align: center;
+            }
+                .section__persons_container {
+                width: 300px;
+                height: 220px;                       
+                }
+                    .section__persons_container-block {
+                    width: 100%;
+                    height: 100%;
+                    margin-right: 1.5%;
+                    margin-left: 2%;
+                    padding: 1%;
+                    }
+                        .section__persons_container-foto {
+                            width: 120px;
+                            height: 120px;
+                            margin: 0 auto;  
+                        }
+                            .section__persons_container-foto-one {
+                                width: 120px;
+                                height: 120px;
+                                margin: 0px auto;
+                                border-radius: 60px;
+                                background-image: url(../img/bradly.png);
+                                background-position: center;
+                                background-size: cover;
+                            }
+                                .section__persons_container-icon-one {
+                                    width: 30px;
+                                    height: 30px;
+                                    background-image: url(../icons/music.png);
+                                    background-position: center;
+                                    background-size: flip;
+                                    background-repeat: no-repeat;
+                                    background-color: red;
+                                    z-index: 100;
+                                    border: 2px solid white;
+                                    border-radius: 15px;
+                                    float: right;
+                                    margin-top: 90px;                          
+                                }
+                            .section__persons_container-foto-two {
+                                width: 120px;
+                                height: 120px;
+                                margin: 0 auto;
+                                border-radius: 60px;
+                                background-image: url(../img/mari.png);
+                                background-position: center;
+                                background-size: cover;
+                            }
+                                .section__persons_container-icon-two {
+                                    width: 30px;
+                                    height: 30px;
+                                    background-image: url(../icons/brush.png);
+                                    background-position: center;
+                                    background-size: flip;
+                                    background-repeat: no-repeat;
+                                    background-color: seagreen;
+                                    z-index: 100;
+                                    border: 2px solid white;
+                                    border-radius: 15px;
+                                    float: right;
+                                    margin-top: 90px;                          
+                                }
+                            .section__persons_container-foto-three {
+                                width: 120px;
+                                height: 120px;
+                                margin: 0 auto;
+                                border-radius: 60px;
+                                background-image: url(../img/diana.png);
+                                background-position: center;
+                                background-size: cover;
+                            }
+                                .section__persons_container-icon-three {
+                                    width: 30px;
+                                    height: 30px;
+                                    background-image: url(../icons/camera.png);
+                                    background-position: center;
+                                    background-size: flip;
+                                    background-repeat: no-repeat;
+                                    background-color: orange;
+                                    z-index: 100;
+                                    border: 2px solid white;
+                                    border-radius: 15px;
+                                    float: right;
+                                    margin-top: 90px;                          
+                                }
+                            .section__persons_container-foto-four {
+                                width: 120px;
+                                height: 120px;
+                                margin: 0 auto;
+                                border-radius: 60px;
+                                background-image: url(../img/christofer.png);
+                                background-position: center;
+                                background-size: cover;
+                            }
+                                .section__persons_container-icon-four {
+                                    width: 30px;
+                                    height: 30px;
+                                    background-image: url(../icons/airplane.png);
+                                    background-position: center;
+                                    background-size: flip;
+                                    background-repeat: no-repeat;
+                                    background-color: blue;
+                                    z-index: 100;
+                                    border: 2px solid white;
+                                    border-radius: 15px;
+                                    float: right;
+                                    margin-top: 90px;                          
+                                }
+                                    .section__persons_container-name {
+                                        width: 80%;
+                                        height: 20px;
+                                        margin: 10px auto;
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    .section__persons_container-text {
+                                        width: 180px;
+                                        height: 40px;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                    }
+            .section__persons_button {
+                width: 180px;
+                height: 70px;
+                margin: 670px auto 0;
+                line-height: 70px;
+            }
+                .section__persons_button-one {
+                    width: 180px;
+                    height: 40px;
+                    border-radius: 20px;
+                    color: red;        
+                    border-color: red;
+                }
+        .article__interest {
+            width: 300px;
+            height: 1031px;
+            margin: 100px auto;
+        }
+            .article__interest_title {
+                width: 300px;
+                height: 60px;
+                text-align: center;
+            }
+            .article__interest_wrapper {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+            }
+                .article__interest_block-small-one {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/run.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-text {
+                    width: 200px;
+                    height: 100px;
+                    margin: 0 auto;
+                }
+                .article__interest_block-small-two {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/rest.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-small-three {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/rock.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-small-four {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/casino.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-big-five {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/museum.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-big-six {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/massage.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .article__interest_block-small-seven {
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(../img/hiking.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+        .section__search {
+            width: 300px;
+            height: 158px;
+            margin: 100px auto;
+            text-align: center;
+            padding: 20px;
+        }
+            .section__search_form {
+                width: 100%;
+                height: 80px;
+            }
+        .footer__line {
+            width: 300px;
+            height: 600px;
+            margin: 0 auto;
+            border-top: 3px solid red;  
+        }
+            .footer__line_block {
+                width: 100%;
+                height: 15%;
+                text-align: center;
+            }
+                .footer__logo {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 30px;
+                    color: red;
+                    font-weight: bold;
+                    text-shadow: 1px 1px 1px black;
+                    margin-top: 20px;
+                }
+                .footer__line_block-company {
+                    width: 300px;
+                }
+                .footer__line_block-partners {
+                    width: 300px;
+                }
+                .footer__line_block-develop {
+                    width: 300px;
+                    height: 70px;
+                    background-image: url(../img/logo.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+}
