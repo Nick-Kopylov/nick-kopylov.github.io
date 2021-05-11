@@ -1,0 +1,16 @@
+@font-face {
+    font-family: monospace;
+    src: url(../fonts/bahij-sultannahia.ttf) ;
+    }   
+@font-face {
+    font-family: sans-serif;
+    src: url(../fonts/ChronicaPro-Regular.ttf);
+    }
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
